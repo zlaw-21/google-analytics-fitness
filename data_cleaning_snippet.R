@@ -75,7 +75,7 @@ seconds_heartrate_late <- seconds_heartrate_late %>%
   mutate(Time = mdy_hms(Time)) %>% 
   rename(date_time = Time)
 
-# Ensure no duplicates within each respective set and identify overlapping.
+# Ensure no duplicates within each respective set and identify overlapping
 # values.
 
 seconds_heartrate_early %>% 
@@ -155,7 +155,7 @@ minutes_calorie_late <- minutes_calorie_late %>%
   mutate(ActivityMinute = mdy_hm(sub(":00 ", " ", ActivityMinute))) %>% 
   rename(date_time = ActivityMinute)
 
-# Ensure no duplicates within each respective set and identify overlapping.
+# Ensure no duplicates within each respective set and identify overlapping
 # values.
 
 minutes_calorie_early %>% 
