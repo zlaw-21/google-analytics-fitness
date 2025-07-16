@@ -202,7 +202,7 @@ outage_data %>%
   theme_minimal()
 ```
 
-![Total Fitbit Inactivity by Weekday and Time](Images/Total Fitbit Inactivity by Weekday and Time.png)
+![Total Fitbit Inactivity by Weekday and Time](/Images/Total%20Fitbit%20Inactivity%20by%20Weekday%20and%20Time.png)
 
 *Peak outage periods are between Saturday and Monday, with Monday showing the highest level of inactivity*
 
@@ -232,7 +232,7 @@ minutes_data %>%
   theme(legend.position = "none")
 ```
 
-![Total Feature Usage in Hours](Images/Total Feature Usage in Hours.png)
+![Total Feature Usage in Hours](Images/Total%20Feature%20Usage%20in%20Hours.png)
 
 *METs and Calorie features are used over 4x more than the third most used feature.*
 *NOTE: METs is used to calculate Calories, so they share an "always on" relationship.*
@@ -261,7 +261,7 @@ minutes_data %>%
   theme(legend.position = "none")
 ```
 
-![Total Feature Usage in Hours](Images/Total Feature Usage in Hours (minus METs).png)
+![Total Feature Usage in Hours](Images/Total%20Feature%20Usage%20in%20%20Hours%20(minus%20METs).png)
 
 *From closer inspection, heart rate has about 800 more use hours than intensity, while the gap between intensity and sleep is around 600–700 hours, potentially indicating significantly higher engagement with the heart rate feature compared to intensity, steps, and sleep.*
 
@@ -289,7 +289,7 @@ minutes_data %>%
         legend.title = element_text(size = 12))
 ```
 
-![Daily Feature Usage](Images/Daily Feature Usage.png)
+![Daily Feature Usage](Images/Daily%20Feature%20Usage.png)
 
 *From the consistency analysis, we can see that calorie and METs maintain a steady and considerable lead over the rest of the features throughout the study period. NOTE: METs and calorie lines are overlapping.*
 
@@ -333,7 +333,7 @@ heat_minutes %>%
   theme_minimal()
 ```
 
-![Total Intensity by Weekday and Time](Images/Total Intensity by Weekday and Time.png)
+![Total Intensity by Weekday and Time](Images/Total%20Intensity%20by%20Weekday%20and%20Time.png)
 
 *From our intensity visualization, we can determine that user's peak physical activity ends around 7:30 PM throughout the week, with the starkest contrast on Wednesday.*
 
@@ -371,7 +371,8 @@ heat_minutes %>%
   theme_minimal()
 ```
 
-![Total METs by Weekday and Time](Images/Total METs by Weekday and Time.png)
+![Total METs by Weekday and Time](Images/Total%20METs%20by%20Weekday%20and%20Time.png)
+
 *After visualizing METs, we can validate that peak physical activity ends around 7:30 PM throughout the week. While METs and intensity are similar metrics (METs are partially used to calculate intensity), we know the features do not hold a 1:1 relationship from our previous analysis, showcasing a real trend in user behavior throughout the average week.*
 
 **Total Heart Rate by Weekday and Time**
@@ -408,7 +409,8 @@ heat_minutes %>%
   theme_minimal()
 ```
 
-![Total Heart Rate by Weekday and Time](Images/Total Heart Rate by Weekday and Time.png)
+![Total Heart Rate by Weekday and Time](Images/Total%20Heart%20Rate%20by%20Weekday%20and%20Time.png)
+
 *From our heart rate visualization, we can see that elevated heart rate subsides around 9:00 PM throughout the week.*
 
 *At the end of this window (7:30-9:00 PM), users have completed their peak physical activity for the day and have moved into a rest period.*
