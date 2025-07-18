@@ -10,26 +10,6 @@
 # datasets contain information from 3-11-2016 to 4-11-2016 and the late datasets
 # contain information from 4-12-2016 to 5-12-2016 (theoretically).
 
-# 6 sets of data were used, with following names and formats:
-
-# Fitabase Data 3.12.16-4.11.16/heartrate_seconds_merged.csv
-# Fitabase Data 4.12.16-5.12.16/heartrate_seconds_merged.csv
-
-# Fitabase Data 3.12.16-4.11.16/minuteCaloriesNarrow_merged.csv
-# Fitabase Data 4.12.16-5.12.16/minuteCaloriesNarrow_merged.csv
-
-# Fitabase Data 3.12.16-4.11.16/minuteIntensitiesNarrow_merged.csv
-# Fitabase Data 4.12.16-5.12.16/minuteIntensitiesNarrow_merged.csv
-
-# Fitabase Data 3.12.16-4.11.16/minuteMETsNarrow_merged.csv
-# Fitabase Data 4.12.16-5.12.16/minuteMETsNarrow_merged.csv
-
-# Fitabase Data 3.12.16-4.11.16/minuteSleep_merged.csv
-# Fitabase Data 4.12.16-5.12.16/minuteSleep_merged.csv
-
-# Fitabase Data 3.12.16-4.11.16/minuteStepsNarrow_merged.csv
-# Fitabase Data 4.12.16-5.12.16/minuteStepsNarrow_merged.csv
-
 #### PLEASE NOTE ####
 
 # Heart Rate and Calories datasets are included here. For the merge, all steps
