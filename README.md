@@ -9,6 +9,7 @@
 - [Data Analysis (ANALYZE)](data-analysis-analyze)
 - [Summary and Key Findings (SHARE)](#summary-and-key-findings-share)
 - [Recommendations (ACT)](#recommendations-act)
+- [Limitations](#limitations)
 
 
 ### Introduction
@@ -458,3 +459,28 @@ I recommend to create an A/B testing marketing campaign aimed at increasing digi
 **To validate success:**
 
 - After three months, digital product sales from the experimental group should see at minimum a 5% increase in total product sales as compared to the control group.
+
+
+### Limitations
+
+The insights generated from this study *assumed* that there were no serious limitations with data or findings presented for learning purposes. In reality, there are several key data integrity issues that would prevent steps presented in the [Recommendations (ACT)](#recommendations-act) section from generating increased sales value for Bellabeat.
+
+**1. The data used in this study is not timely and was recorded over 9 years ago in 2016.**
+
+With information this old, only statements regarding the time period could be considered valid, and not for future marketing purposes in 2025. 
+
+**2. The sample size of the study is relatively small, with only 35 users.**
+
+This case study aimed at generating population level strategic insight for a marketing campaign. As a rule of thumb, depending on the desired statistical accuracy, I would recommend using a population size of 100 or more for this kind of study.
+
+**3. The data used in this study is from a Third-Party source.**
+
+With Third-Party data, it is difficult to validate the accuracy and validity of the data. In this instance, the data was housed on Kaggle by a user with no official affiliation to Amazon or Fitbit. In instances like these, it is nearly impossible to determine if the data presented is real or if it has been altered in any way prior to becoming public.
+
+**4. No subject matter expertise on how Fitbit data is captured.**
+
+In addition to the data coming from a Third-Party, we do not know how exactly Fitbit data is captured and recorded. For example, in our analysis we found that both METs and calorie tracking features shared an identical relationship in value counts and made the assumption that they follow an "always on" relationship. In reality, it is possible that Fitbit tracks METs and calorie data differently in some cases and our dataset just didn't include those cases due to the smaller sample size.
+
+**5. No demographic data available for the users.**
+
+Bellabeat is an american wellness tracker company with a target market interested in fem-tech. The data used in this study offered no information regarding the gender, interests, or location of the participants. To generate actionable insights for the company, a researcher would need at least a high level understanding of the participant demographics to target the right market of users.
