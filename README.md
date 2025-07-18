@@ -20,7 +20,7 @@ Company Play It Smart?*** offered in Module 8 of the certification track.
 
 The primary objective of this case study is to develop a high level marketing strategy for a specific Bellabeat product based upon user-level fitness data captured on a competitor's smart device.
 
-You can view the full case study PDF [here](/Case_Study_2_Bellatbeat.pdf) provided by Google for an in depth view on the project details and scenario.
+You can view the full case study PDF [here](/Case_Study_2_Bellabeat.pdf) provided by Google for an in depth view on the project details and scenario.
 
 
 ### Business Request (ASK)
@@ -182,7 +182,7 @@ The analysis conducted was targeted to uncover how users were actually utilizing
 
 To identify outage periods throughout a typical week, I created a heatmap to visualize all missing values from the minutes_data dataframe by weekday and time in 30 minute bins.
 
-NOTE: Additional data manipulation steps were taken to join the minutes_data dataset with NA values to create the outage_data dataframe. See [visualizations.r](/visualizations.r) for more detail.
+NOTE: Additional data manipulation steps were taken to join the minutes_data dataset with NA values to create the outage_data dataframe. See [visualizations.r](/visualizations.R) for more detail.
 
 ```r
 outage_data %>% 
@@ -301,7 +301,7 @@ Now that we found that Tuesday, Wednesday, and Thursday are the most active days
 
 I started by creating a heat map of total intensity throughout each week of the study period.
 
-NOTE: Additional data manipulation steps were taken to create the heat_minutes dataframe from minutes_data. See [visualizations.r](/visualizations.r) for more detail.
+NOTE: Additional data manipulation steps were taken to create the heat_minutes dataframe from minutes_data. See [visualizations.r](/visualizations.R) for more detail.
 
 ```r
 heat_minutes %>%
