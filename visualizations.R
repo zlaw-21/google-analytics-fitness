@@ -244,51 +244,6 @@ heat_minutes %>%
            fontface = "bold.italic") +
   theme_minimal()
 
-#### Write Up ####
-
-# Peak outage periods are between Saturday and Monday, with Monday being the highest.
-
-# Users are most active on their devices between Tuesday-Thursday
-
-# METs and Calorie trackers are the most used features by a large margin
-# NOTE: METs is used to calculate Calories, so they share an "always on" relationship.
-
-# Heart Rate follows behind as the third most used feature, further examination from
-# consistency line graph shows that the true usage data is actually much higher
-# than what is depicted in our bar graphs, so it is likely users track heart rate
-# around 1.5-1.7x more than the fourth most used feature.
-
-# All features have relatively steady usage over time, but heart rate was under
-# utilized at the start of the study. All data had a drop off on 4-11-16, with
-# calories taking the largest hit.
-
-# Intensity and METs show consistent patterns with value patterns, even considering
-# different usage volume. This shows a pattern of workout times.
-
-# 7:30 PM on Tuesday, Wednesday, and Thursday highlights the end of physical
-# activity for most users.
-
-# Heartrate follows a similar pattern, but lags behind METs and Intensity throughout
-# the day. 
-
-# 9:00 PM on Tuesday, Wednesday, and Thursday highlights the end of the "energy"
-# period for users following their exercise routine.
-
-#### Recommendations ####
-
-# Utilize a digital marketing campaign tailored to Calorie and Heart Rate tracking 
-# features to target users between 7:30 PM and 9:00 PM on Tuesday, Wednesday, and 
-# Thursday to increase cost to value ratio on current digital marketing efforts.
-
-# Calorie and Heart Rate features are the most used features by far, indicating
-# increased popularity and feature market fit.
-
-# Tuesday, Wednesday, and Thursday are the days in which users are most active
-# on their devices and consistently engage in exercise. 
-
-# Immediately after workout, users are experiencing increased energy, endorphins,
-# and are fitness conscious. Targeting this period of activation energy could
-# optimize CTR and product sales.
 
 
 
