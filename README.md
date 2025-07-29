@@ -425,7 +425,7 @@ To return to the original objective, here we will answer each of the three quest
 
 - Users are the least active on their smart watch devices between Saturday-Monday, while being most active between Tuesday-Thursday.
 - The most used smart device features are calorie, METs, and heart rate, while the least used are intensity, steps, and sleep. Additionally, feature usage is consistent across time, showcasing that popularity is typically inelastic.
-- Lastly, users peak physical activity ends around 7:30 PM throughout the average week and move into rest at round 9:00 PM consistently, especially between Tuesday-Thursday.
+- Lastly, users peak physical activity ends around 7:30 PM throughout the average week and they move into rest at 9:00 PM consistently, especially between Tuesday-Thursday.
 
 **How could these trends apply to Bellabeat customers?**
 
